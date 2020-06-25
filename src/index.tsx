@@ -20,10 +20,10 @@ const routes = mount({
     title: 'Login',
     view: <LoginPage/>
   })),
-  "/register": route({
+  "/register": withAuthenticationLogin(route({
     title:'Register',
     view: <RegisterPage />
-  })
+  }))
 })
 
 

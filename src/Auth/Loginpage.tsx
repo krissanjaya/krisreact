@@ -66,7 +66,7 @@ const LoginPage = () => {
             <div>
                 <Card className="cardLoginInner" elevation={10}>
                     <CardContent>
-                        <Avatar className="avatar">
+                        <Avatar className="avatar" style={{backgroundColor:'#5e6ddd'}}>
                             <LockOutlinedIcon />
                         </Avatar>
                         <Typography component="h1" style={{fontWeight:'bold'}} color="primary" variant="h5" align="center">
