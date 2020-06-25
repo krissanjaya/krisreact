@@ -44,7 +44,7 @@ const LoginPage = () => {
     const login = async(event: React.FormEvent) => {
         event.preventDefault();
 
-        localStorage.setItem('token', 'asdsadsad')
+        // localStorage.setItem('token', 'asdsadsad')
 
         const {error, token} = await onLogin({
             username,

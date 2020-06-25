@@ -1,11 +1,13 @@
+
+
 .cardLogin {
     margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
-  }
+    transform: translate(-50%, -50%);
+}
 
 .cardLoginInner {
   padding:15px;
@@ -17,8 +19,19 @@
   margin:0px auto 15px auto;
 }
 
-.LoginPage {
+.Login {
+  background-image: url("../assets/images/bg-login.png");
+  background-size:     cover;                     
+  background-repeat:   no-repeat;
+  position: absolute;
+  background-position: center center;  
+  height:100%;
+  width: 100%;
+}
+
+/* .LoginPage {
   min-height: 100%;
   width: 100%;
   background-color: aqua;
-}
+} */
+
